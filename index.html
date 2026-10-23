@@ -1,8 +1,15 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>炭火烤棉花糖</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;700&family=DM+Mono:wght@500&display=swap">
 <style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0}
+[hidden]{display:none!important}
 /* 單一夜晚營火場景：全螢幕畫布，HUD 浮在上方，結算卡片置中 */
 :root{
   --night:#120f16; --ink:#1c1720; --ash:#8f8494; --cream:#f4ead8;
@@ -51,6 +58,8 @@ ul{margin:0;padding-left:1.1em;line-height:1.8;color:#d9cfc0}
 .tip{font-size:.85rem;color:var(--ash)}
 @media (prefers-reduced-motion:reduce){#blow{animation:none}}
 </style>
+</head>
+<body>
 
 <canvas id="stage"></canvas>
 
@@ -353,5 +362,5 @@ function frame(now){
 }
 requestAnimationFrame(frame);
 </script>
-
-</body></html>
+</body>
+</html>
